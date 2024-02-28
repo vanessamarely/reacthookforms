@@ -5,6 +5,7 @@ import FormHookForm from "./components/HookForm";
 import ContactForm from "./components/ContactForm";
 import FormYup from "./components/FormYup";
 import Yup from "./components/Yup";
+import ExerciseForm from "./components/ExerciseForm";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <h3>React Hook Form - Yup</h3>
       <Yup />
       <hr />
+      <h2>Ejercicio</h2>
+      <ExerciseForm />
     </>
   );
 }
